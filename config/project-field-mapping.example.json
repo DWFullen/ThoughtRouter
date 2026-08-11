@@ -1,0 +1,9 @@
+{
+  "Type": "Type",
+  "Area": "Area",
+  "Status": "Status",
+  "Priority": "Priority",
+  "Due": "Due",
+  "Effort": "Effort",
+  "Context": "Context"
+}

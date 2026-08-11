@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+body { @apply bg-slate-50 text-slate-900; }
+textarea { @apply border rounded-lg p-3 w-full; }
+button { @apply rounded-lg px-3 py-2 border border-slate-300; }

@@ -1,0 +1,18 @@
+{
+  "name": "@thoughtrouter/github",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint src --ext .ts || true",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run --passWithNoTests",
+    "github:doctor": "tsx src/doctor.ts"
+  },
+  "dependencies": {
+    "@thoughtrouter/domain": "workspace:*",
+    "@thoughtrouter/config": "workspace:*",
+    "tsx": "^4.19.1"
+  }
+}
