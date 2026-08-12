@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@thoughtrouter/domain": "workspace:*",
-    "drizzle-orm": "^0.34.1",
+    "drizzle-orm": "^0.45.2",
     "postgres": "^3.4.5"
   },
   "devDependencies": {
